@@ -1,8 +1,0 @@
-AVR어쩌구 저쩌구    
-
-Relevant Devices
-This section lists the relevant devices for this document. The following figures show the different family devices, laying out pin count variants and memory sizes:
-
-Vertical migration upwards is possible without code modification, as these devices are pin-compatible and provide the same or more features
-Horizontal migration to the left reduces the pin count and, therefore, the available features
-Devices with different Flash memory sizes typically also have different SRAM and EEPROM
