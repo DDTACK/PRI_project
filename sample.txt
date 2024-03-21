@@ -1,1 +1,25 @@
-tes text
+-git branch
+버전에 따라 여러 저장 포인트 생성 가능
+
+-merge
+여러 branch를 하나로 통합
+
+-git head
+*기본 master branch 기준
+각 branch에 이름을 할당하여 정리가 용이
+
+• git branch//현재 브랜치
+• git branch <branch-name>//새 브랜치 생성
+*git branch -c <branch-name>//새 브랜츠 생성과 수정
+• git switch <branch-name>//브랜치 이름(commit)으로 이동
+• git checkout <branch-name>//해쉬코드로 이동
+log를 통해 head위치 확인 후 특정 체크 위치(push history)로 저장 가능
+
+-branch 이동
+과거 브랜치 지점으로 이동후 새 브랜치 생성하면 기존 가지 외에 새로운 가지로 진행 됨 
+ex)
+(1->2->3)
+브랜치1로 이동 후 새 브랜치 A를 생성
+(1->A)
+* 새 브랜치 생성 후 푸시 하기 위해선 아래의 명령어 입력
+  git push --set-upstream origin
